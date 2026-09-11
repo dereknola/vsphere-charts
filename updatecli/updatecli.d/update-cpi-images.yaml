@@ -75,8 +75,8 @@ actions:
     kind: github/pullrequest
     scmid: default
     spec:
-      automerge: false
-      mergemethod: squash
+      merge:
+        strategy: squash
       description: |
         This automated PR updates the Rancher Prime image tag in the vSphere CPI chart.
 
