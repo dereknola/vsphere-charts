@@ -76,7 +76,8 @@ actions:
     scmid: default
     spec:
       merge:
-        strategy: squash
+        strategy: manual
+      mergemethod: squash
       description: |
         This automated PR updates the Rancher Prime image tag in the vSphere CPI chart.
 

@@ -375,7 +375,8 @@ actions:
     scmid: default
     spec:
       merge:
-        strategy: squash
+        strategy: manual
+      mergemethod: squash
       description: |
         This automated PR updates Rancher Prime image tags in the vSphere CSI chart.
 
